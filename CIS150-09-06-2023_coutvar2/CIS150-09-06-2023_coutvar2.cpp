@@ -17,5 +17,17 @@ int main()
     age = 18; // assginment
 
     cout << "Hello my name is Jack! I am " << age << " years old, and my favorite number is " << favNum << endl; //printing integer vars
+
+    int userAge;
+
+    cout << "Enter your age!: ";
+
+    cin >> userAge; // Input
+
+    cout << "Hello. You are " << userAge << " years old." << endl; //Printing out the age to the user.
+
+    int birthYear = 2023 - userAge; // just using math to calculate the users Birth Year.
+
+    cout << "You were born in " << birthYear; // Telling them
     return 0;
 }
