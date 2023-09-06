@@ -9,5 +9,5 @@
 using namespace std;
 int main()
 {
-    cout << "Hello World!\n";
+    cout << "J\na\nc\nk" << endl; //Printing name on new lines
 }
